@@ -1,0 +1,23 @@
+p {
+  font-family: Lato;
+}
+
+th,
+td {
+  padding-right: 15px;
+}
+table,
+td {
+  border: 1px solid black;
+  margin: 0;
+}
+th {
+  border: 1px solid black;
+  margin: 0;
+  padding: 0.3em;
+  background-color: slategrey;
+}
+
+table {
+  border-collapse: collapse;
+}

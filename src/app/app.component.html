@@ -1,0 +1,25 @@
+Teams
+<hr />
+<ul>
+  <li *ngFor="let sport of sports">{{ sport.name }}</li>
+</ul>
+<br />
+
+<table>
+  <tr>
+    <th>Team</th>
+    <th>sport</th>
+  </tr>
+  <tr *ngFor="let sport of sports">
+    <td *ngIf="sport.type == 'hockey'">{{ sport.name }}</td>
+    <td *ngIf="sport.type == 'hockey'">{{ sport.type }}</td>
+  </tr>
+  <tr>
+    <th>Team</th>
+    <th>sport</th>
+  </tr>
+  <tr *ngFor="let sport of sports">
+    <td *ngIf="sport.type != 'hockey'">{{ sport.name }}</td>
+    <td *ngIf="sport.type != 'hockey'">{{ sport.type }}</td>
+  </tr>
+</table>
